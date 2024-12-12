@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+/* header ნაწილი */
+header {
+  width: 100%;
+  height: 73px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 73px;
+  list-style-type: none;
+}
+.logo {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  height: 73px;
+  justify-content: center;
+}
+.texts {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: 73px;
+  gap: 30px;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+p {
+  font-family: "Phetsarath", serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.71px;
+  color: rgba(77, 77, 77, 1);
+}
+.btn {
+  width: 12%;
+  text-align: center;
+  height: 45px;
+  border: none;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 7px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* header ნაწილი */
+
+.big {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  box-shadow: 0px 2.78px 5.57px 0px rgba(171, 190, 209, 0.185);
+  background-color: rgba(218, 217, 217, 0.205);
+}
+
+/* text field */
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
+  gap: 20px;
+}
+h1 {
+  font-family: "Phetsarath", serif;
+  font-size: 44.55px;
+  font-weight: 600;
+  line-height: 52.9px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+}
+h2 {
+  font-family: "Phetsarath", serif;
+  font-size: 44.55px;
+  font-weight: 600;
+  line-height: 52.9px;
+  text-align: left;
+  color: rgba(76, 175, 79, 1);
+}
+span {
+  font-family: "Phetsarath", serif;
+  font-size: 14.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+/* text field */
+#btn {
+  border: none;
+  width: 20%;
+  height: 70px;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 2.78px;
+}
+#aba {
+  font-family: "Phetsarath", serif;
+  font-size: 25.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 77, 77, 1);
+}
+#aba1 {
+  font-family: "Phetsarath", serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: rgba(113, 113, 113, 1);
+}
+.texa {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.icons {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.community {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.com-texts {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+}
+.com-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.first {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1.39px 2.78px 0px rgba(171, 190, 209, 0.137);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 182px;
+  width: 15%;
+}
+#ab {
+  font-family: "Phetsarath", serif;
+  font-size: 27.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 77, 77, 1);
+}
+#a {
+  font-family: "Phetsarath", serif;
+  font-size: 30.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 77, 77, 1);
+}
+.downside {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.texts2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 49%;
+  height: 220px;
+  gap: 21px;
+}
+#ba {
+  font-family: "Phetsarath", serif;
+  font-size: 40.06px;
+  font-weight: 600;
+  line-height: 34.63px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+}
+#ba1 {
+  font-family: "Phetsarath", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15.92px;
+  color: rgba(113, 113, 113, 1);
+}
+h3 {
+  font-family: "Phetsarath", serif;
+  font-size: 25.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  color: rgba(113, 113, 113, 1);
+}
+.cl {
+  font-family: "Phetsarath", serif;
+  font-size: 27.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(76, 175, 79, 1);
+}
+h4 {
+  font-family: "Phetsarath", serif;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: rgba(24, 25, 31, 1);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  height: 202px;
+  justify-content: space-evenly;
+
+  background-color: rgba(224, 224, 224, 0.147);
+}
+.texts3 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.icona {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.icona1 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.fle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h5 {
+  font-family: "Phetsarath", serif;
+  font-size: 19.49px;
+  font-weight: 700;
+  line-height: 25.06px;
+  color: rgba(77, 77, 77, 1);
+}
+h6 {
+  font-family: "Phetsarath", serif;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: rgba(113, 113, 113, 1);
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+#baa {
+  font-family: "Phetsarath", serif;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 34.63px;
+  color: rgba(77, 77, 77, 1);
+}
+#baa1 {
+  font-family: "Phetsarath", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14.92px;
+  color: rgba(113, 113, 113, 1);
+}
+#btn1 {
+  border: none;
+  width: 20%;
+  height: 70px;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 2.78px;
+}
+.downside1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  gap: 20px;
+}
+.texts21 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 245px;
+  gap: 21px;
+}
+.tesla {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  height: 274px;
+  gap: 20px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.iconos {
+  display: flex;
+  flex-direction: row;
+  width: 86%;
+  height: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 22px;
+}
+.aka {
+  font-family: "Phetsarath", serif;
+  font-size: 15.14px;
+  font-weight: 500;
+  line-height: 16.71px;
+  color: rgba(113, 113, 113, 1);
+}
+.alaat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.mama {
+  font-family: "Phetsarath", serif;
+  font-size: 19.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  color: rgba(76, 175, 79, 1);
+}
+.mam {
+  font-family: "Phetsarath", serif;
+  font-size: 13.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#dada {
+  font-family: "Phetsarath", serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(76, 175, 79, 1);
+}
+.meat {
+  display: flex;
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.big-cont {
+  display: contents;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  align-items: center;
+  height: 120px;
+  justify-content: center;
+}
+#abdi {
+  font-family: "Phetsarath", serif;
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: center;
+  color: rgba(113, 113, 113, 1);
+}
+#abdi1 {
+  font-family: "Phetsarath", serif;
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  color: rgba(76, 175, 79, 1);
+}
+.al1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alaa1 {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  height: 113px;
+  background-color: white;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0px 5.57px 11.14px 0px rgb(171, 190, 209);
+}
+.al2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alaa2 {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  height: 113px;
+  background-color: white;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0px 5.57px 11.14px 0px rgb(171, 190, 209);
+}
+.al3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alaa3 {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  height: 113px;
+  background-color: white;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0px 5.57px 11.14px 0px rgb(171, 190, 209);
+}
+#eight {
+  width: 280px;
+}
+.alak {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 150px;
+}
+.amat {
+  font-family: "Phetsarath", serif;
+  font-size: 14.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: center;
+  color: rgba(113, 113, 113, 1);
+}
+.amat1 {
+  font-family: "Phetsarath", serif;
+
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  color: rgba(76, 175, 79, 1);
+}
+.right {
+  display: flex;
+}
+.badri {
+  font-family: "Phetsarath", serif;
+  font-size: 30.06px;
+  font-weight: 600;
+  line-height: 30.63px;
+  text-align: center;
+  color: rgba(77, 77, 77, 1);
+}
+.shubladze {
+  font-family: "Phetsarath", serif;
+  font-size: 13.14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: center;
+  color: rgba(113, 113, 113, 1);
+}
+.afro {
+  justify-content: space-evenly;
+  height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(227, 227, 227, 0.136);
+}
+.mana {
+  font-family: "Phetsarath", serif;
+  font-size: 48.55px;
+  font-weight: 600;
+  line-height: 52.9px;
+  text-align: center;
+  color: rgba(38, 50, 56, 1);
+}
+.alan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 25px;
+}
+button {
+  text-align: center;
+  height: 45px;
+  border: none;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 7px;
+  width: 120%;
+}
+footer {
+  background-color: rgba(38, 50, 56, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+.kala {
+  font-family: "Phetsarath", serif;
+
+  font-size: 25.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  color: white;
+}
+li {
+  list-style-type: none;
+  color: white;
+  font-size: small;
+}
+.insida {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: 249px;
+  justify-content: space-evenly;
+}
+.middla {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lefto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bachuki{
+    font-family: "Phetsarath", serif;
+font-size: 27.92px;
+font-weight: 600;
+line-height: 19.49px;
+text-align: left;
+color: white;
+margin-bottom: 15px;
+
+}
+.amana{
+    font-family: "Phetsarath", serif;
+font-size: 9.74px;
+font-weight: 400;
+line-height: 13.92px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+
+}
+.abnas{
+    font-family: "Phetsarath", serif;
+    font-size: 9.74px;
+    font-weight: 400;
+    line-height: 13.92px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.email{
+    margin-bottom: 112px;
+    position: relative;
+}
+#jaba{
+    border: none;
+    background-color: rgba(218, 217, 217, 0.205);
+    color: gray;
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+
+}
+.kalasd{
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    left: 173px;
+}
